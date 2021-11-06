@@ -1,0 +1,28 @@
+.wrapper {
+  height: 100vh;
+  padding: 0 10px;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  width: 50%;
+  float: right;
+  background-color: #e2e0d8;
+  height: calc(100vh - 55px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toast-custom {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+}
